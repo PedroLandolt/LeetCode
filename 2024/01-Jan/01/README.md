@@ -1,6 +1,8 @@
-# **455. Assign Cookies**
+# **455. Assign Cookies** ([Go to LeetCode](https://leetcode.com/problems/assign-cookies/))
 
 #### __Difficulty:__ **<span style="color:green">Easy</span>**
+
+#### __Date__: January 1, 2024
 
 ## **Description:**
 Assume you are an awesome parent and want to give your children some cookies. But, you should give each child at most one cookie.
@@ -30,7 +32,7 @@ You need to output 1.
 You have 3 cookies and their sizes are big enough to gratify all of the children, 
 You need to output 2.
 
-Constraints:
+## Constraints:
 
 - `1 <= g.length <= 3 * 104`
 - `0 <= s.length <= 3 * 104`
