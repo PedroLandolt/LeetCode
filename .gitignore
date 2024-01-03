@@ -2,3 +2,6 @@
 
 ### VisualStudioCode ###
 .vscode/
+
+### CLion ###
+.idea/
