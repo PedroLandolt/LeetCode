@@ -1,6 +1,6 @@
 # **455. Assign Cookies** ([Go to LeetCode](https://leetcode.com/problems/assign-cookies/))
 
-#### __Difficulty:__ **<span style="color:green">Easy</span>**
+#### __Difficulty:__ ** <span style="color:green">Easy</span>**
 
 #### __Date__: January 1, 2024
 
