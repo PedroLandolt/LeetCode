@@ -36,3 +36,5 @@ It can be shown that we cannot make the array empty in less than 4 operations.
 
 ## Constraints:
 
+- `2 <= nums.length <= 105`
+- `1 <= nums[i] <= 106`
