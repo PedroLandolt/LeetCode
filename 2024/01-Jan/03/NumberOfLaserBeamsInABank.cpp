@@ -108,7 +108,7 @@ int main()
     cout << endl;
     
     cout << "Test 2: " << endl;
-    cout << "Input: nums = [\"000\",\"111\",\"000\"]" << endl;
+    cout << "Input: matrix = [\"000\",\"111\",\"000\"]" << endl;
     vs str2 = {"000","111","000"};
     cout << "My Output: " << sol.numberOfBeams(str2) << endl;
     cout << endl;
