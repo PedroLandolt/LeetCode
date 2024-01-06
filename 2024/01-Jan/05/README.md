@@ -1,25 +1,38 @@
-# **Title** ([Go to LeetCode](https://leetcode.com/problems/))
+# **300. Longest Increasing Subsequence** ([Go to LeetCode](https://leetcode.com/problems/longest-increasing-subsequence))
 
-#### __Difficulty:__ **<span style="color:green"></span>**
+#### __Difficulty:__ **<span style="color:orange">Medium</span>**
 
-#### __Date__: 
-## **Description:**
+#### __Date__: January 5, 2024
+## **Description:** 
 
+Given an integer array nums, return the length of the longest __strictly increasing 
+subsequence__.
+
+A subsequence is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.
 
 ## **Exemple 1:**
-**Input:** 
+**Input:** nums = [10,9,2,5,3,7,101,18]
 
-**Output:** 
+**Output:** 4
 
-**Explanation:** 
+**Explanation:** The longest increasing subsequence is [2,3,7,101], therefore the length is 4.
 
 ## **Exemple 2:**
 
-**Input:**
+**Input:** nums = [0,1,0,3,2,3]
 
-**Output:** 
+**Output:** 4
 
-**Explanation:** 
+## **Exemple 2:**
+**Input:** nums = [7,7,7,7,7,7,7]
+
+**Output:** 1
 
 ## Constraints:
 
+- `1 <= nums.length <= 2500`
+- `-10^4 <= nums[i] <= 10^4`
+
+##
+
+**Follow up: Can you come up with an algorithm that runs in O(n log(n)) time complexity?**
