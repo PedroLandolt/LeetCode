@@ -1,25 +1,35 @@
-# **Title** ([Go to LeetCode](https://leetcode.com/problems/))
+# **938. Range Sum of BST** ([Go to LeetCode](https://leetcode.com/problems/range-sum-of-bst))
 
-#### __Difficulty:__ **<span style="color:green"></span>**
+#### __Difficulty:__ **<span style="color:green">Easy</span>**
 
-#### __Date__: 
+#### __Date__: January 8, 2021
 ## **Description:**
 
+Given the `root` node of a binary search tree, return the sum of values of all nodes with a value in the range `[low, high]`.
 
 ## **Exemple 1:**
-**Input:** 
 
-**Output:** 
+![BST](images/bst1.jpg)
 
-**Explanation:** 
+**Input:** root = [10,5,15,3,7,null,18], low = 7, high = 15
+
+**Output:** 32
+
+**Explanation:** Nodes 7, 10 and 15 are in the range [7, 15]. 7 + 10 + 15 = 32. 
 
 ## **Exemple 2:**
 
-**Input:**
+![BST](images/bst2.jpg)
 
-**Output:** 
+**Input:** root = [10,5,15,3,7,13,18,1,null,6], low = 6, high = 10
 
-**Explanation:** 
+**Output:** 23
+
+**Explanation:** Nodes 6, 7 and 10 are in the range [6, 10]. 6 + 7 + 10 = 23.
 
 ## Constraints:
 
+- The number of nodes in the tree is in the range `[1, 2 * 10^4]`.
+- `1 <= Node.val <= 10^5`
+- `1 <= low <= high <= 10^5`
+- All `Node.val` are **unique**
